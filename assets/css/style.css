@@ -64,7 +64,31 @@ html{
     font-size: 1rem;
     position: relative;
 }
+.link{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    position: relative;
+}
+.link:after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #B30000;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+/* Animacion navbar*/
 
+.link:hover:after{
+    width: 100%;
+    right: 0;
+}
 
 .logo img{
     height: 200px;
