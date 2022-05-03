@@ -18,6 +18,7 @@ html{
 }
 .body{
     min-height: 100vh;
+   
 
 }
 .grid-container{
@@ -36,8 +37,8 @@ html{
     
 }
 .navbar{
-    background-color: var(--color5);
-    width: 100%;
+    background-color: var(--color5) ;
+    width: 90%;
     height: max-content;
     display: flex;
     justify-content: space-evenly;
@@ -45,9 +46,11 @@ html{
     position: relative;
     top: 0;
     overflow: hidden;
+
+
 }
 .navbar ul{
-    margin-top: 50px;
+    margin-top: 90px;
     text-align: center;
 
 }
@@ -92,7 +95,7 @@ html{
 
 .logo img{
     height: 200px;
-    transition: all 500ms;
+    
 
 }
 .hero{
@@ -207,25 +210,12 @@ html{
     border: none;
     
 }
-.pie p{
-    margin: 12px;
-    padding: 5px;
-    color:rgba(255, 255, 255, 0.882);
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
 .pie{
-    grid-area: footer;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow: auto;
-    background-color:#b30000c1;
-           
+   padding: 5%;
+   margin: 10px;
 }
 
-@media (max-width: 412px){
+@media (max-width: 500px){
     .grid-container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto 200px;
@@ -233,14 +223,19 @@ html{
                              "main   main"
                              "footer footer";
     }
+    .logo img{
+        margin: auto;
+        padding: 0%;
+    }
     .navbar{
         display: flex;
         flex-direction: column;
         justify-content: center;
         position: static;
-        
-       
-
+    
+    }
+    .navbar ul{
+        margin-top: 10px;
     }
     .nav ul li{
         display: block;
@@ -270,129 +265,30 @@ html{
         width: min-content;
         height: min-content;
     }
-
-
-}
-
-/* Contacto */
-
-.grid-container{
-    display: grid;
-    gap: 2px;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto 100px;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
-
-}
-.main-contacto{
-    grid-area: main;
-   
-
-}
-.main-contacto h2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    padding: 25px;
-    margin: 10px;
-
 }
 
 
-.info{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    
+/*page vuelos*/
 
+.carousel-inner{
+    height: 450px;
 
 }
-.icons-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    
-
-
+.vuelos1{
+    padding: 30px;
 }
-.icons-container p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1rem;
-
+.card{
+    margin: 20px 10px;
+    text-align: left;
 }
-.icono{
+.card-body a{
     color: #B30000;
-    margin-right: 10px;
+    text-decoration: none;
+    margin-top: auto;
 }
-.form-contacto{
-    display: flex;
-    flex-wrap: wrap;
-    box-shadow: 5px 10px 5px rgba(84, 75, 75, 0.296);
-    border-radius: 4px;
-    width: 550px;
-    height: 520px;
- 
-}
-   
-.mapa{
-    margin-top: 30px;
-    margin-bottom: 20px;
-
-}
-.piepagina p{
-    margin: 12px;
-    padding: 5px;
+.card-body a:hover{
     color: var(--color4);
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
-.piepagina{
-    grid-area: footer;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow: auto;
+    text-decoration: none;
 }
 
-@media (max-width: 412px){
-    .grid-container{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto 200px;
-        grid-template-areas: "header header"
-                             "main   main"
-                             "footer footer";
 
-    }
-    .navbar{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: static;
-    
-
-    }
-    .nav ul li{
-        display: block;
-
-    }
-    .navbar ul li a{
-        font-size: 1.5rem;
-    }
-    .form-contacto{
-        width: min-content;
-        height: min-content;
-    }
-    .mapa{
-        margin-top: 50px;
-        margin-bottom: 60px;
-    }
-
-
-
-}
