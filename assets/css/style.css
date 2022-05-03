@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -292,3 +293,69 @@ html{
 }
 
 
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: rgb(195, 17, 17) !important;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.carousel-inner{
+ height: 400px;
+}
+
+/* cards */
+.sec1{
+    background-color: rgb(195, 17, 17) !important;
+    padding: 30px;
+}
+.sec1 h3{
+    color: rgb(226, 225, 225);
+    padding-bottom: 5px;
+
+}
+.title {
+    text-align: center;
+    padding: 25px 0px;
+}
+.card{
+    margin: 20px 10px;
+    text-align: center;
+
+}
+.card-body a{
+    color: rgb(255, 246, 243) !important;
+    text-decoration: none;
+    margin-top: auto;
+}
+.card-body a:hover{
+    color: black;
+    text-decoration: none;
+
+}
+.btn{
+    background-color: rgba(28, 21, 21, 0.544);
+
+}
+.sec2{
+    background-color: rgb(195, 17, 17) !important;
+    padding: 15px 0px;
+    border-top: 0px;
+    margin: auto;
+}
+.sec2 h3{
+    color: rgb(226, 225, 225);
+    padding-bottom: 5px;
+}
+
+>>>>>>> c5ce815e51b97c18eb691571e7e871970ccc2e21
