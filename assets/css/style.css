@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +20,6 @@ html{
 .body{
     min-height: 100vh;
    
-
 }
 .grid-container{
     display: grid;
@@ -292,28 +291,6 @@ html{
     text-decoration: none;
 }
 
-
-=======
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.navbar{
-    background-color: rgb(195, 17, 17) !important;
-
-}
-html{
-    scroll-behavior: smooth;
-}
-.carousel-inner img {
-    width: 100%;
-    max-height: 100%;
-}
-
-.carousel-inner{
- height: 400px;
-}
-
 /* cards */
 .sec1{
     background-color: rgb(195, 17, 17) !important;
@@ -358,4 +335,3 @@ html{
     padding-bottom: 5px;
 }
 
->>>>>>> c5ce815e51b97c18eb691571e7e871970ccc2e21
