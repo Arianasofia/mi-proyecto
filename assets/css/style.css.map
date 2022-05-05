@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,KAAK,CAAA;EACD,MAAM,EAAE,SAAS;EACjB,UAAU,EAAE,IAAI;CAKnB",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_variables.scss",
+        "../scss/_main.scss",
+        "../scss/_card.scss",
+        "../scss/_nav.scss",
+        "../scss/_carrusel.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
