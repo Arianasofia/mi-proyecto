@@ -1,0 +1,22 @@
+.main-content{
+    grid-area: main;
+    h2{
+        margin: 50px;
+        text-align: center;
+        font-size: 2rem;
+        font-family: $fuente;
+    }
+    main-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 50px;
+    }
+    main-img{
+        height: 400px;
+        width: 400px;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+    }
+}
